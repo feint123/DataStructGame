@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/stack.css">
+</head>
+<body>
+    <div class="header">
+        <span>Stack</span>
+    </div>
+    <div class="console-surface w3-container">
+        <div class="w3-input-group">
+            <label for="speed" class="w3-label">Speed</label>
+            <select id="speed" class="w3-select">
+                <option value="1000">1.0X</option>
+                <option value="666">1.5X</option>
+                <option value="500">2.0X</option>
+                <option value="250">4.0X</option>
+                <option value="100">10.0X</option>
+                <option value="10">100.0X</option>
+            </select>
+        </div>
+        <div class="w3-input-group">
+            <input class="w3-input" placeholder="Width" id="width">
+            <input class="w3-input" placeholder="Height" id="height">
+        </div>
+        <button type="button" class="w3-btn start">Starts</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="js/jquery-1.5.2.min.js"></script>
+    <script src="js/stack.js"></script>
+</body>
+</html>

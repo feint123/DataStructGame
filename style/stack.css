@@ -1,0 +1,11 @@
+.console-surface{
+    position: absolute;
+    background-color: #3c3f41;
+    top:100px;
+    margin: 0;
+    width:200px;
+}
+.console{
+    margin: 32px 0 0 32px;
+    display: block;
+}
